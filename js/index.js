@@ -6,13 +6,14 @@ const main = () => {
       $('#message').text('First type an item');
     } else {
       let newItem =
-        '<li>' +
+        '<li class="card">' +
         input +
-        "<button class='checkBtn'>Check</button>" +
+        "<br><button class='checkBtn'>Check</button>" +
         "<button class='deleteBtn'>Delete</button>" +
         '</li>';
       $('#shoppingList').append(newItem);
       $('#message').text(' ');
+      $('#inputText').val('');
     }
   });
 

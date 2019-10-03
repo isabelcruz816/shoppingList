@@ -1,0 +1,82 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  text-decoration: underline overline #ff9333;
+  font-weight: lighter;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.circle img {
+  width: 70px;
+  height: 70px;
+  margin: 15%;
+  padding: 2px;
+}
+
+li {
+  font-size: 14px;
+  font-family: 'Calibri', sans-serif;
+  list-style-type: none;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 15px;
+}
+
+button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 8px;
+  padding: 6px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#addBtn {
+  background-color: white;
+  border: 2px solid #4caf50;
+}
+
+#addBtn:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.checkBtn {
+  background-color: white;
+  border: 2px solid #ff9333;
+}
+
+.deleteBtn {
+  background-color: white;
+  border: 2px solid #f84b2b;
+}
+
+.deleteBtn:hover {
+  background-color: #f84b2b;
+  color: white;
+}
+
+.checkBtn:hover {
+  background-color: #ff9333;
+  color: white;
+}
